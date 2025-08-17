@@ -13,6 +13,7 @@ try:
     print("Database 'alx_book_store' created successfully!")
 except mysql.connector.Error as err:
     print(f"Error: {err}")
+    
 
 mycursor.close()
 mydb.close()
